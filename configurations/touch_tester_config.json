@@ -1,0 +1,7 @@
+{
+    "calibration_type": "EYE_TO_HAND",
+    "robot_config_file":"./configurations/robot_config.json",
+    "camera_config_file":"./configurations/camera_config.json",
+    "calibration_depth_scale":"./calibrations/EYE_IN_HAND_camera_depth_scale.txt",
+    "calibration_camera_pose":"./calibrations/EYE_IN_HAND_camera_pose.txt"
+}

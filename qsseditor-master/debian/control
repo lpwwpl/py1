@@ -1,0 +1,17 @@
+Source: qsseditor
+Section: graphics
+Priority: extra
+Maintainer: Dmitry Baryshev <dmitrymq@gmail.com>
+XSBC-Original-Maintainer: Dmitry Baryshev <dmitrymq@gmail.com>
+Uploaders: Dmitry Baryshev <dmitrymq@gmail.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev, qttools5-dev-tools, libqt5scintilla2-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/smoked-herring/qsseditor
+
+Package: qsseditor
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: QSS Editor is a tool to edit and preview
+ Qt style sheets. It provides a simple interface
+ with autocompletion support.

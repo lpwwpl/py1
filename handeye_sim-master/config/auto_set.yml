@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+min_Z: 0.4
+max_Z: 0.7
+inter_z: 5.0000000000000001e-02
+inter_xy: 0.01
+optic_angle: 30.
+cali_type: 0
+picture_number: 30
+init_robot_pose: !!opencv-matrix
+   rows: 7
+   cols: 1
+   dt: d
+   data: [ 5.0000000000000011e-01, -4.9999999999999989e-01,
+       -5.0000000000000000e-01, 5.0000000000000000e-01,
+       -5.0000000000000000e-01, 0., 2.9999999999999999e-01 ]

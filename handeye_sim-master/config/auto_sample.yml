@@ -1,0 +1,13 @@
+%YAML:1.0
+---
+eyeonhand: 1 #eye on hand:1 eye to hand:0
+useDepth: 1 # can use depth image:1 not:0
+
+#sample set:
+initialpose: [0,0,0,0,0,0,0] #initial robot pose x,y,z x,y,z,w
+min_Z: 0.4
+max_Z: 0.7
+inter_z: 5.0000000000000001e-02
+inter_xy: 0.01
+optic_angle: 30.
+angle_inter: 30.

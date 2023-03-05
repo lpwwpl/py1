@@ -1,0 +1,19 @@
+<?xml version="0.0" ?>
+<robot name="irb120.urdf">
+  <link name="baseLink">
+
+    <visual>
+        <origin rpy="-1.5707963 0 0" xyz="0 0 0"/>
+      <geometry>
+		<mesh filename="120.obj" scale="1 1 1"/>
+      </geometry>
+    </visual>
+    <collision>
+       <origin rpy="-1.5707963 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<box size=".05 .05 .05"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+

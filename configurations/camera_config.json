@@ -1,0 +1,7 @@
+{
+    "im_height": 480,
+    "im_width": 640,
+    "tcp_host_ip": "127.0.0.1",
+    "tcp_port": 50000,
+    "buffer_size": 4608040
+}
